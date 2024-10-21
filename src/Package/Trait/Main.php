@@ -16,6 +16,7 @@ trait Main {
      */
     public function deno_install(): void
     {
+        Core::interactive();
         $command = 'curl -fsSL https://deno.land/install.sh | sh';
         exec($command, $output);
         echo implode(PHP_EOL, $output) . PHP_EOL;
