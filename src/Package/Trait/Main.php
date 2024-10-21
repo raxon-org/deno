@@ -25,6 +25,9 @@ trait Main {
         echo $command . PHP_EOL;
         exec($command, $output);
         echo implode(PHP_EOL, $output) . PHP_EOL;
+        $command = 'chmod +x /usr/local/bin/deno';
+        exec($command, $output);
+        echo implode(PHP_EOL, $output) . PHP_EOL;
 //        $command = 'cp ~/.deno/bin/deno /usr/local/bin/deno';
 //        exec($command, $output);
 //        echo implode(PHP_EOL, $output) . PHP_EOL;
