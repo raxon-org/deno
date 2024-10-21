@@ -22,11 +22,13 @@ trait Main {
 //        echo implode(PHP_EOL, $output) . PHP_EOL;
         $object = $this->object();
         $command = 'cp ' . $object->config('project.dir.vendor') . 'raxon/deno/src/Data/deno.zip ~/deno.zip';
-        breakpoint($command);
         exec($command, $output);
         echo implode(PHP_EOL, $output) . PHP_EOL;
-        $command = 'cp ~/.deno/bin/deno /usr/local/bin/deno';
+        $command = 'app zip extract ~/deno.zip /usr/local/bin/deno';
         exec($command, $output);
+        echo implode(PHP_EOL, $output) . PHP_EOL;
+//        $command = 'cp ~/.deno/bin/deno /usr/local/bin/deno';
+//        exec($command, $output);
 
         $command = 'deno --version';
         exec($command, $output);
