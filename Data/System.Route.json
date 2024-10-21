@@ -1,0 +1,18 @@
+{
+  "System": {
+    "Route": [
+      {
+        "name": "raxon-org-cli-deno",
+        "path": "raxon\/deno",
+        "controller": "Package:Raxon:Deno:Controller:Cli:run",
+        "priority": 1001,
+        "request": {
+          "language": "en"
+        },
+        "method": [
+          "CLI"
+        ]
+      }
+    ]
+  }
+}
