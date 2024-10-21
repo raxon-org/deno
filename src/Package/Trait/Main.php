@@ -17,10 +17,8 @@ trait Main {
     public function deno_install(): void
     {
         Core::interactive();
-        $command = 'curl -fsSL https://deno.land/install.sh | sh';
-        exec($command, $output);
-        echo implode(PHP_EOL, $output) . PHP_EOL;
-        $command = 'cp ~/.deno/bin/deno /usr/local/bin/deno';
+        $object = $this->object();
+        $command = 'cp ' . $object->config('framework.dir.vendor') . 'raxon/deno/Data/deno /usr/local/bin/deno';
         exec($command, $output);
         echo implode(PHP_EOL, $output) . PHP_EOL;
         $command = 'deno --version';
