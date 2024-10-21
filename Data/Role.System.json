@@ -4,179 +4,179 @@
   "#class": "Account.Role",
   "permission": [
     {
-      "name": "System:Event:import",
+      "name": "System:Deno:import",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:record",
+      "name": "System:Deno:record",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:record.relation",
+      "name": "System:Deno:record.relation",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:create",
+      "name": "System:Deno:create",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:create.many",
+      "name": "System:Deno:create.many",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:count",
+      "name": "System:Deno:count",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:count.relation",
+      "name": "System:Deno:count.relation",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:commit",
+      "name": "System:Deno:commit",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:delete",
+      "name": "System:Deno:delete",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:delete.many",
+      "name": "System:Deno:delete.many",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:read",
+      "name": "System:Deno:read",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:read.relation",
+      "name": "System:Deno:read.relation",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:put",
+      "name": "System:Deno:put",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:put.many",
+      "name": "System:Deno:put.many",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:patch",
+      "name": "System:Deno:patch",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:patch.many",
+      "name": "System:Deno:patch.many",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:page",
+      "name": "System:Deno:page",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:page.relation",
+      "name": "System:Deno:page.relation",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:property.delete",
+      "name": "System:Deno:property.delete",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:list",
+      "name": "System:Deno:list",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:list.relation",
+      "name": "System:Deno:list.relation",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:rename",
+      "name": "System:Deno:rename",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:Action:import",
+      "name": "System:Deno:Action:import",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:Action:record",
+      "name": "System:Deno:Action:record",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:Action:record.relation",
+      "name": "System:Deno:Action:record.relation",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:Action:create",
+      "name": "System:Deno:Action:create",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:Action:create.many",
+      "name": "System:Deno:Action:create.many",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:Action:count",
+      "name": "System:Deno:Action:count",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:Action:count.relation",
+      "name": "System:Deno:Action:count.relation",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:Action:commit",
+      "name": "System:Deno:Action:commit",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:Action:delete",
+      "name": "System:Deno:Action:delete",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:Action:delete.many",
+      "name": "System:Deno:Action:delete.many",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:Action:read",
+      "name": "System:Deno:Action:read",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:Action:read.relation",
+      "name": "System:Deno:Action:read.relation",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:Action:put",
+      "name": "System:Deno:Action:put",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:Action:put.many",
+      "name": "System:Deno:Action:put.many",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:Action:patch",
+      "name": "System:Deno:Action:patch",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:Action:patch.many",
+      "name": "System:Deno:Action:patch.many",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:Action:page",
+      "name": "System:Deno:Action:page",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:Action:page.relation",
+      "name": "System:Deno:Action:page.relation",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:Action::property.delete",
+      "name": "System:Deno:Action::property.delete",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:Action:list",
+      "name": "System:Deno:Action:list",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:Action:list.relation",
+      "name": "System:Deno:Action:list.relation",
       "#class": "Account.Permission"
     },
     {
-      "name": "System:Event:Action:rename",
+      "name": "System:Deno:Action:rename",
       "#class": "Account.Permission"
     }
   ]
