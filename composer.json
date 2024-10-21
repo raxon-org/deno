@@ -1,8 +1,8 @@
 {
-    "name" : "raxon/event",
-    "description" : "raxon/event see https://raxon.org for detailed usage",
+    "name" : "raxon/deno",
+    "description" : "raxon/deno see https://raxon.org for detailed usage",
     "type" : "package",
-    "keywords" : ["node", "raxon", "org", "library", "framework", "event", "raxon.org"],
+    "keywords" : ["deno", "raxon", "org", "library", "framework", "event", "raxon.org"],
     "homepage": "https://raxon.org",
     "require" : {
         "ext-posix": "*",
