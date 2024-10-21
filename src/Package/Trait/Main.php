@@ -21,7 +21,7 @@ trait Main {
 //        exec($command, $output);
 //        echo implode(PHP_EOL, $output) . PHP_EOL;
         $object = $this->object();
-        breakpoint($object->config('framework.dir'));
+        breakpoint($object->config('project.dir'));
         $command = 'cp ' . $object->config('framework.dir.vendor') . 'raxon/deno/src/Data/deno.zip ~/deno.zip';
         breakpoint($command);
         exec($command, $output);
