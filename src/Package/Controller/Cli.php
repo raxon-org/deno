@@ -1,6 +1,6 @@
 <?php
 
-namespace Package\Raxon\Event\Controller;
+namespace Package\Raxon\Deno\Controller;
 
 use Raxon\App;
 use Raxon\Config;
@@ -22,8 +22,8 @@ class Cli extends Controller {
     const DIR = __DIR__ . '/';
     const MODULE_INFO = 'Info';
     const INFO = [
-        '{{binary()}} raxon/event                   | Event (Object store) options',
-        '{{binary()}} raxon/event setup             | Event setup'
+        '{{binary()}} raxon/deno                    | Deno (Object store) options',
+        '{{binary()}} raxon/deno setup              | Deno setup'
     ];
 
     /**
