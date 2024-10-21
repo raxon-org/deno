@@ -26,7 +26,6 @@ trait Main {
         $command = 'deno --version';
         exec($command, $output);
         echo implode(PHP_EOL, $output) . PHP_EOL;
-        breakpoint('test');
     }
 }
 
