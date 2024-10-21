@@ -21,7 +21,7 @@ trait Main {
 //        exec($command, $output);
 //        echo implode(PHP_EOL, $output) . PHP_EOL;
         $object = $this->object();
-        $command = 'app zip extract ' . $object->config('project.dir.vendor') . 'raxon/deno/src/Data/deno.zip' . ' /usr/local/bin/deno --patch';
+        $command = 'app zip extract ' . $object->config('project.dir.vendor') . 'raxon/deno/src/Data/deno.zip' . ' /usr/local/bin/deno -patch';
         echo $command . PHP_EOL;
         exec($command, $output);
         echo implode(PHP_EOL, $output) . PHP_EOL;
